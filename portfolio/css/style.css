@@ -1,0 +1,54 @@
+.slider
+{ 
+  background-image: url("../img/body1.jpg"); 
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+  position: relative;
+  background: #4FBDDD;
+}
+#Acerca{
+  background: url("../img/bg-acerca.png");
+  width: 100%;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  } 
+
+#Contacto{
+  background: url("../img/bg-portafolio.jpg");
+  width: 100%;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+#Inicio h1{
+  color: white;
+  font-size: 5vh 5vw;
+}
+
+#Inicio p{
+  font-weight: bold;
+  color: white;
+}
+
+#Inicio footer{
+  font-weight: bold;
+  color: white;
+  font-size: 4vh;
+}
+
+#Inicio blockquote{
+  size: 1vh;
+}
