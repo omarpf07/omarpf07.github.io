@@ -1,0 +1,50 @@
+#body{
+    background-color: #333;
+    font-weight:400;
+    color: #333;
+}
+
+#title{
+    color: #FFFEF5;
+}
+
+#quote-machine{
+  border-radius:3px;
+  position:relative;
+  margin:15% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color: #FFFEF5;
+  
+}
+#button-quote{
+    
+    opacity: 1;
+    text-align: left;
+    border:none;
+    background-color: #333;
+}
+#button-quote:hover {
+transform: skew(-10deg);
+opacity: 0.75;
+}
+
+#button-twitter{
+    opacity: 1;
+    text-align: left;
+    border:none;
+    background-color: #333;
+    transform-style: preserve-3d;
+}
+#button-twitter:hover {
+  opacity: 0.75;
+}
+
+#footer{
+    color: #FFFEF5;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
