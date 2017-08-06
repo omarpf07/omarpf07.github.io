@@ -31,8 +31,8 @@ $(document).ready(function() {
     
    function displayTemp(F,C)
     {
-        if(C) return Math.round((F-32)*(5/9)) + '°C';
-        return Math.round(F +'°F');
+        if(C == true) return Math.round((F-32)*(5/9)) + '°C';
+        return Math.round(F)+ '°F';
     };//displayTemp()
 
     function render(data, C){
@@ -50,9 +50,9 @@ $(document).ready(function() {
         $("#Location").html(location.city+ ', ' + location.country_code + '.');
         $.getJSON('https://api.openweathermap.org/data/2.5/weather?lat='+location.latitude+'&lon='+location.longitude+'&units=imperial&appid=21f2c5a13b50b2d2616d5ee5728ee971',function(data){
             apiData= data;
-            render(apiData,C);
+            render(apiData,C); 
             $("#temp-button").click(function(){
-                C = !C
+                C = !C;
                 render(data,C);
             });//Temperature button
             
