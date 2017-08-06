@@ -12,7 +12,11 @@ img{
     width: 2em;
     height: 2em;
 }
-.switch input {display:none;}
+
+#Icon img{
+    width: 10em;
+    height: 10em;
+}
 
 #temp-button{
   color: #fff;
