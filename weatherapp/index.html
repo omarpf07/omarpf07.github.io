@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        
+        <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/25f057d986.js"></script>
+        <script src="http://code.jquery.com/color/jquery.color-2.1.2.js" integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+
+    </head>
+    <body class="text-center" id="body">
+        <nav class="navbar navbar-light bg-faded d-flex flex-row-reverse sticky-top" id="navbar">
+        <form class="form-inline">
+            <button class="btn btn-outline-secondary" type="button" id="temp-button"><i class="fa fa-thermometer-half" aria-hidden="true"></i></button>
+        </form>
+        </nav>
+        <div class="row mt-5 pt-5">
+            <div class="col">
+                <h1 class="h1" id="Title">Weather App</h1>
+            </div>
+        </div>
+        <div class="row mt-4 pt-4">
+            <div class="col">
+                <h2 class="h2" id="Loc"><i class="fa fa-map-signs" aria-hidden="true"></i> <span id="Location"><img src="img/loading-location.svg" alt=""></span></h2>
+            </div>
+        </div>
+        <div class="row mt-3 pt-3">
+            <div class="col" id="Ic">
+                <span id="Icon"><img src="img/loading-icon.svg" alt=""></span>
+            </div>
+        </div>
+        <div class="row mt-3 pt-3">
+            <div class="col">
+                <h2 class="h3" id="Weat"><span id="Weather"><img src="img/loading-stuff.svg" alt=""></span></h2>
+            </div>
+        </div>
+         <div class="row mt-2 pt-2">
+            <div class="col">
+                <h3 class="h3" id="Temp"><span id="Temperature"><img src="img/loading-stuff.svg" alt=""></span></h3>
+            </div>
+        </div>
+    </body>
+</html>

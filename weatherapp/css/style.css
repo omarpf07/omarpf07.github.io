@@ -1,0 +1,23 @@
+#body{
+    background: #90B5A0;
+    color: white;
+    overflow-x:hidden;
+}
+
+#Title{
+    font-size: 5em;
+}
+
+img{
+    width: 2em;
+    height: 2em;
+}
+.switch input {display:none;}
+
+#temp-button{
+  color: #fff;
+}
+
+#navbar{
+  background-color: transparent;
+}
