@@ -51,7 +51,6 @@ $(document).ready(function() {
         $.getJSON('https://api.openweathermap.org/data/2.5/weather?lat='+location.latitude+'&lon='+location.longitude+'&units=imperial&appid=21f2c5a13b50b2d2616d5ee5728ee971',function(data){
             apiData= data;
             render(apiData,C);
-            console.log(data);
             $("#temp-button").click(function(){
                 C = !C
                 render(data,C);
