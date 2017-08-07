@@ -7,17 +7,18 @@
     <title>Omar Perozo</title>
 
     <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+   
   </head>
   <body>
 
   <!-- Inicio-->
   <section class="container-fluid slider d-flex align-items-center justify-content-center" id="Inicio">
     <div class="text-center">
-      <h1 class="display-1 pb-2 mb-2">Omar Perozo</h1>
-      <img src="img/avatar.jpg" alt="..." class="img-thumbnail img-fluid rounded mx-auto d-block rounded-circle" style="height: 30vh;">
+      <h1 class="display-1 pb-2 mb-2" id="nombre">Omar Perozo</h1>
+      <img src="img/avatar.jpg" alt="..." id="imagen" class="img-thumbnail img-fluid rounded mx-auto d-block rounded-circle" style="height: 30vh;">
       <blockquote class="blockquote">
       <p class="mb-0" id="quotes">Futuro Ingeniero en Informática.</p>
       <footer class="blockquote-footer"><i class="fa fa-desktop" aria-hidden="true"></i>,<i class="fa fa-headphones" aria-hidden="true"></i>,<i class="fa fa-book" aria-hidden="true"></i>,<i class="fa fa-coffee" aria-hidden="true"></i>.</footer>
@@ -53,7 +54,7 @@
 <!--Acerca de mi-->
   <section class="container-fluid text-white" id="Acerca">
     <div class="container-fluid">
-      <h2 class="display-4 d-flex align-items-center justify-content-center pb-5">Acerca de mí</h2>
+      <h2 class="display-4 d-flex align-items-center justify-content-center pb-5" data-aos="fade-up">Acerca de mí</h2>
     </div>
 
 <!--Frases célebres-->
@@ -148,24 +149,24 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active" style="height: 70vh;">
-          <img class="d-block img-fluid" src="img/placeholder.png" alt="First slide">
+          <a href="https://omarpf07.github.io/tribute" target="_blank"><img class="d-block img-fluid" src="img/tribute.jpg" alt="First slide"></a>
           <div class="carousel-caption d-none d-md-block">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto</p>
+            <h3>JK Rowling's Tribute Page</h3>
+            <p>Una pequeña página en forma de tributo para la autora de los libros de Harry Potter: JK Rowling.</p>
           </div>
         </div>
       <div class="carousel-item" style="height: 70vh;">
-          <img class="d-block img-fluid" src="img/placeholder.png" alt="Second slide">
+          <a href="https://omarpf07.github.io/randomquotes" target="_blank"><img class="d-block img-fluid" src="img/randomquote.jpg" alt="Second slide"></a>
           <div class="carousel-caption d-none d-md-block">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto</p>
+            <h3>Random Quote Machine</h3>
+            <p>Una pequeña Web APP que genera aleatoriamente una cita con su respectivo autor, en inglés.</p>
           </div>          
       </div>
       <div class="carousel-item" style="height: 70vh;">
-        <img class="d-block img-fluid" src="img/placeholder.png" alt="Third slide">
+        <a href="https://omarpf07.github.io/weatherapp/" target="_blank"><img class="d-block img-fluid" src="img/weatherapp.jpg" alt="Third slide"></a>
           <div class="carousel-caption d-none d-md-block">
-            <h3>Proyecto 3</h3>
-            <p>Descripción del proyecto</p>
+            <h3>Local Weather App</h3>
+            <p>Una pequeña Web APP, la cuál te muestra el clima actual en tu ubicación y el fondo dependerá del estado del clima.</p>
           </div>        
       </div>
       </div>

@@ -12,6 +12,7 @@
 body{
   position: relative;
   background: #4FBDDD;
+  overflow-x: hidden;
 }
 #Acerca{
   background: url("../img/bg-acerca.png");
