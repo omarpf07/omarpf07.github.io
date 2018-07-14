@@ -53,3 +53,11 @@ body{
 #Inicio blockquote{
   size: 1vh;
 }
+
+.boxshadow-title{
+  text-shadow: 2px 2px black;
+}
+
+.boxshadow-p{
+  text-shadow: 1px 1px black;
+}
